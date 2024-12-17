@@ -5,6 +5,7 @@ import Image from "next/image";
 import payment from "@assets/img/footer/footer-payment.png";
 import SocialLinks from "@components/social";
 import CopyrightText from "./copyright-text";
+import logo from "@assets/abheen.png";
 
 // single widget
 function SingleWidget({ col, col_2, col_3, title, contents }) {
@@ -44,11 +45,10 @@ const Footer = () => {
                     <div className="footer__logo">
                       <Link href="/">
                         <Image
-                          src="https://cdn.codeopx.com/abheen.png"
+                          src={logo}
                           alt="Image 1"
                           width={150}
                           height={150}
-                         
                         />
                       </Link>
                     </div>

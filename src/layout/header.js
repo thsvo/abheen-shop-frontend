@@ -10,6 +10,7 @@ import CartSidebar from "@components/common/sidebar/cart-sidebar";
 import OffCanvas from "@components/common/off-canvas";
 import useCartInfo from "@hooks/use-cart-info";
 import SearchForm from "@components/forms/search-form";
+import logo from "@assets/abheen.png"
 
 const Header = ({ style_2 = false }) => {
   const { sticky } = useSticky();
@@ -36,7 +37,7 @@ const Header = ({ style_2 = false }) => {
                     <div className="logo mr-10 mt-10">
                       <Link href="/">
                         <Image
-                          src="https://cdn.codeopx.com/abheen.png"
+                          src={logo}
                           alt="Image 1"
                           width={150}
                           height={150}
