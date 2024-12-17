@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Autoplay, Pagination } from "swiper";
 // internal
-import slider_img_1 from "@assets/img/slider/13/slider-1.png";
+import slider_img_1 from "@assets/img/slider/13/gur1.png";
 import slider_img_2 from "@assets/img/slider/13/slider-2.png";
 import slider_img_3 from "@assets/img/slider/13/slider-3.png";
 import { RightArrow } from "@svg/index";
@@ -14,12 +14,12 @@ const slider_data = [
     id: 1,
     pre_title: (
       <>
-        Best Ear <br /> Headphones
+       Premium Khejurer <br/> Patali Gur
       </>
     ),
     title: (
       <>
-        Find Best <br /> Matley Sound.
+        Order Best <br /> Khejurer Patali Gur.
       </>
     ),
     img: slider_img_1,

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 // internal
-import payment from '@assets/img/footer/footer-payment.png';
+import payment from "@assets/img/footer/footer-payment.png";
 import SocialLinks from "@components/social";
 import CopyrightText from "./copyright-text";
 
@@ -43,15 +43,24 @@ const Footer = () => {
                   <div className="footer__widget footer__widget-11 mb-50 footer-col-11-1">
                     <div className="footer__logo">
                       <Link href="/">
-                        <h3>Abheen</h3>
+                        <Image
+                          src="https://cdn.codeopx.com/abheen.png"
+                          alt="Image 1"
+                          width={150}
+                          height={150}
+                         
+                        />
                       </Link>
                     </div>
 
                     <div className="footer__widget-content">
                       <div className="footer__info">
                         <p>
-                          The home and elements needed to create beautiful
-                          products.
+                          অভিন , একটি আন্তর্জাতিক পণ্যের সমাহার। আপনি কি
+                          বিশ্বব্যাপী ব্র্যান্ড থেকে প্রিমিয়াম পণ্য খুঁজছেন?
+                          অভিন-এ, প্রথম আমরা আপনার নখরঅর্পণে বিশ্বস্ত খাঁটি
+                          গুণগত মানসম্মত আন্তর্জাতিক আইটেম সহ বিশ্বকে আপনার
+                          সামনে নিয়ে এসেছি।
                         </p>
                         <div className="footer__social footer__social-11">
                           <SocialLinks />

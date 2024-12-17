@@ -24,22 +24,29 @@ const Header = ({ style_2 = false }) => {
       <header>
         <div className={`header__area ${style_2 ? "" : "header__transparent"}`}>
           <div
-            className={`header__bottom-13 header__padding-7 header__black-3 header__bottom-border-4 ${style_2 ? "header__bottom-13-white" : "grey-bg-17"
-              } header__sticky ${sticky ? "header-sticky" : ""}`}
+            className={`header__bottom-13 header__padding-7 header__black-3 header__bottom-border-4 ${
+              style_2 ? "header__bottom-13-white" : "grey-bg-17"
+            } header__sticky ${sticky ? "header-sticky" : ""}`}
             id="header-sticky"
           >
             <div className="container-fluid">
               <div className="mega-menu-wrapper p-relative">
                 <div className="row align-items-center">
                   <div className="col-xxl-1 col-xl-2 col-lg-4 col-md-4 col-sm-5 col-8">
-                    <div className="logo">
+                    <div className="logo mr-10 mt-10">
                       <Link href="/">
-                        <h3>Abheen</h3>
+                        <Image
+                          src="https://cdn.codeopx.com/abheen.png"
+                          alt="Image 1"
+                          width={150}
+                          height={150}
+                          
+                        />
                       </Link>
                     </div>
                   </div>
                   <div className="col-xxl-6 col-xl-7 d-none d-xl-block">
-                    <div className="main-menu main-menu-13 pl-45 main-menu-ff-space">
+                    <div className="main-menu main-menu-13 pl-45 main-menu-ff-space ml-50">
                       <nav id="mobile-menu-3">
                         <Menus />
                       </nav>
