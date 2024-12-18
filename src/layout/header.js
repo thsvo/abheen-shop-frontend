@@ -12,7 +12,7 @@ import useCartInfo from "@hooks/use-cart-info";
 import SearchForm from "@components/forms/search-form";
 import logo from "@assets/abheen.png";
 
-const Header = ({ style_2 = false }) => {
+const Header = ({ style_2 = true }) => {
   const { sticky } = useSticky();
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isOffCanvasOpen, setIsOffCanvasOpen] = useState(false);
@@ -41,10 +41,10 @@ const Header = ({ style_2 = false }) => {
 
         <div className={`header__area ${style_2 ? "" : "header__transparent"}`}>
           <div
-            className={`header__bottom-13 header__padding-7 header__black-3 header__bottom-border-4 ${
+            className={`header__bottom-2 header__padding-7 header__black-3 header__bottom-border-4 ${
               style_2 ? "header__bottom-13-white" : "grey-bg-17"
-            } header__sticky ${sticky ? "header-sticky" : ""}`}
-            id="header-sticky"
+            } header__sticky }`}
+           
           >
             <div className="container-fluid">
               <div className="mega-menu-wrapper p-relative">
@@ -111,21 +111,21 @@ const Header = ({ style_2 = false }) => {
                             </li>
                           )}
                           <li>
-                            <Link href="/wishlist">
+                            {/* <Link href="/wishlist">
                               <Heart />
                               <span className="tp-item-count">
                                 {wishlist.length}
                               </span>
-                            </Link>
+                            </Link> */}
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="/compare">
                               <Compare />
                               <span className="tp-item-count">
                                 {compare.length}
                               </span>
                             </Link>
-                          </li>
+                          </li> */}
                           <li>
                             <button
                               className="cartmini-open-btn"
