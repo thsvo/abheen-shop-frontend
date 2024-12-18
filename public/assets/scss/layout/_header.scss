@@ -2761,3 +2761,32 @@
         box-shadow: 0px 1px 3px rgba(3, 4, 28, 0.12);
     }
 }
+
+
+.banner1 {
+    width: 100%;
+    background-color: #FF7F27;
+    color: white; // Equivalent to text-white in Tailwind
+    padding: 0.5rem 1rem;
+  
+    .container1 {
+      margin: 0 auto;
+  
+      p {
+        text-align: center;
+        font-size: 0.875rem;
+        color: white;
+        @media (min-width: 768px) {
+          font-size: 1rem;
+        }
+  
+        a {
+          color: white; // Ensure links also inherit the white text color
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  

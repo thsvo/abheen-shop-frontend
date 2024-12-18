@@ -10,7 +10,7 @@ import CartSidebar from "@components/common/sidebar/cart-sidebar";
 import OffCanvas from "@components/common/off-canvas";
 import useCartInfo from "@hooks/use-cart-info";
 import SearchForm from "@components/forms/search-form";
-import logo from "@assets/abheen.png"
+import logo from "@assets/abheen.png";
 
 const Header = ({ style_2 = false }) => {
   const { sticky } = useSticky();
@@ -23,6 +23,22 @@ const Header = ({ style_2 = false }) => {
   return (
     <>
       <header>
+        <div class="banner1">
+          <div class="container1">
+            <p>
+              আমাদের যে কোন পণ্য অর্ডার করতে কল বা WhatsApp করুন:
+              <a
+                href="https://wa.me/8801312108940"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                +8801312108940
+              </a>
+              |<a href="tel:09642-922922">হট লাইন: 09642-922922</a>
+            </p>
+          </div>
+        </div>
+
         <div className={`header__area ${style_2 ? "" : "header__transparent"}`}>
           <div
             className={`header__bottom-13 header__padding-7 header__black-3 header__bottom-border-4 ${
@@ -34,14 +50,13 @@ const Header = ({ style_2 = false }) => {
               <div className="mega-menu-wrapper p-relative">
                 <div className="row align-items-center">
                   <div className="col-xxl-1 col-xl-2 col-lg-4 col-md-4 col-sm-5 col-8">
-                    <div className="logo mr-10 mt-10">
+                    <div className="logo ">
                       <Link href="/">
                         <Image
                           src={logo}
                           alt="Image 1"
                           width={150}
                           height={150}
-                          
                         />
                       </Link>
                     </div>
