@@ -2767,12 +2767,13 @@
     width: 100%;
     background-color: #FF7F27;
     color: white; // Equivalent to text-white in Tailwind
-    padding: 0.5rem 1rem;
+    padding: 0.1rem 0.1rem;
   
     .container1 {
       margin: 0 auto;
-  
+
       p {
+        padding-top: 10px;
         text-align: center;
         font-size: 0.875rem;
         color: white;
