@@ -11,6 +11,7 @@ import OffCanvas from "@components/common/off-canvas";
 import useCartInfo from "@hooks/use-cart-info";
 import SearchForm from "@components/forms/search-form";
 import logo from "@assets/abheen.png";
+import NavigationMenu from "./NavMenu";
 
 const Header = ({ style_2 = true }) => {
   const { sticky } = useSticky();
@@ -156,7 +157,7 @@ const Header = ({ style_2 = true }) => {
           </div>
         </div>
       </header>
-
+<NavigationMenu></NavigationMenu>
       {/* cart mini area start */}
       <CartSidebar isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen} />
       {/* cart mini area end */}
