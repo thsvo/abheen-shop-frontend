@@ -16,8 +16,15 @@ const menu_data = [
   // },
   {
     id: 4,
-    title: 'Shop',
-    link: '/shop'
+    title: "Country",
+    link: "#",
+    submenus: [
+      { title: "Bangladesh", link: "/shop?Brand=Bangladesh" },
+      { title: "Dubai", link: "/shop?Brand=Dubai" },
+      { title: "India", link: "/shop?Brand=India" },
+      { title: "China", link: "/shop?Brand=China" },
+      { title: "Japan", link: "/shop?Brand=Japan" },
+    ],
   },
   // {
   //   id: 5,
@@ -56,16 +63,16 @@ const menu_data = [
   {
     id: 7,
     hasDropdown: true,
-    title: 'Brand',
-    link: '#',
+    title: "Brand",
+    link: "#",
     submenus: [
-      { title: 'Logitech', link: '/shop?Brand=logitech' },
-      { title: 'Deepcool', link: '/shop?Brand=deepcool' },
-      { title: 'Apple', link: '/shop?Brand=apple' },
-      { title: 'Sony', link: '/shop?Brand=sony' },
-      { title: 'Samsung', link: '/shop?Brand=samsung' },
-      { title: 'Lenovo', link: '/shop?Brand=lenovo' }
-    ]
+      { title: "Logitech", link: "/shop?Brand=logitech" },
+      { title: "Deepcool", link: "/shop?Brand=deepcool" },
+      { title: "Apple", link: "/shop?Brand=apple" },
+      { title: "Sony", link: "/shop?Brand=sony" },
+      { title: "Samsung", link: "/shop?Brand=samsung" },
+      { title: "Lenovo", link: "/shop?Brand=lenovo" },
+    ],
   },
   // {
   //   id: 8,
@@ -81,6 +88,6 @@ const menu_data = [
   //     { title: 'Fedex', link: '/shop?Store=fedex' }
   //   ]
   // }
-]
+];
 
 export default menu_data;
