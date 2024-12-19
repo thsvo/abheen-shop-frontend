@@ -7,16 +7,12 @@ export default function NavigationMenu() {
 
   const menuItems = [
     'OFFER',
-    'Sarisha Oil',
-    'Ghee (ঘি)',
-    'Dates (খেজুর)',
-    'Honey',
-    'Masala',
-    'Organic Oil',
-    'Nuts & Seeds',
-    'Tea/Coffee',
-    'Functional Food',
-    'খেজুর গুড়'
+    'Organic Foods',
+    'Spices/Masala',
+    'Beauty Products',
+    'Fashion',
+    'Gadget -Device',
+    'Electronics',
   ]
 
   return (
