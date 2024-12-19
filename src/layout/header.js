@@ -54,9 +54,9 @@ const Header = ({ style_2 = true }) => {
                       <Link href="/">
                         <Image
                           src={logo}
-                          alt="Image 1"
+                          alt="Image 1"                      
                           width={150}
-                          height={150}
+                          style={{ height: '100%' }}
                         />
                       </Link>
                     </div>

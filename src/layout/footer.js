@@ -41,9 +41,7 @@ const Footer = () => {
             <div className="container">
               <div className="row">
                 <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-6">
-                  <div className="footer__widget footer__widget-11 mb-50 footer-col-11-1">
-                    <div className="footer__logo">
-                      <Link href="/">
+                <Link href="/">
                         <Image
                           src={logo}
                           alt="Image 1"
@@ -51,6 +49,9 @@ const Footer = () => {
                           height={150}
                         />
                       </Link>
+                  <div className="footer__widget footer__widget-11 mb-50 footer-col-11-1">
+                    <div className="footer__logo mb-5">
+                     
                     </div>
 
                     <div className="footer__widget-content">
@@ -63,40 +64,37 @@ const Footer = () => {
                           সামনে নিয়ে এসেছি।
                         </p>
                         <div className="footer__social footer__social-11">
-                          <SocialLinks />
+                          {/* <SocialLinks /> */}
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
+<br/> <br/>
                 <SingleWidget
                   col="2"
                   col_2="4"
                   col_3="2"
-                  title="Company"
+                  title="COMPANY"
                   contents={[
                     { url: "#", title: "About us" },
-                    { url: "#", title: "Careers" },
-                    { url: "#", title: "Store Locations" },
-                    { url: "#", title: "Our Blog" },
-                    { url: "#", title: "Reviews" },
+                    { url: "#", title: "রিটার্ন পলিসি" },
+                    { url: "#", title: "রিফান্ড পলিসি" },
+             
                   ]}
                 />
                 <SingleWidget
                   col="3"
                   col_2="3"
                   col_3="3"
-                  title="Shop"
+                  title="QUCIK HELP"
                   contents={[
-                    { url: "#", title: "Game & Video" },
-                    { url: "#", title: "Phone &Tablets" },
-                    { url: "#", title: "Computers & Laptop" },
-                    { url: "#", title: "Sport Watches" },
-                    { url: "#", title: "Discounts" },
+                    { url: "#", title: "গ্রাহক সেবা" },
+                    { url: "#", title: "Contract" },
+            
                   ]}
                 />
-                <SingleWidget
+                {/* <SingleWidget
                   col="1"
                   col_2="3"
                   col_3="4"
@@ -108,17 +106,14 @@ const Footer = () => {
                     { url: "", title: "Shipping" },
                     { url: "", title: "Returns" },
                   ]}
-                />
+                /> */}
 
                 <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-5 col-sm-6">
                   <div className="footer__widget mb-50 footer-col-11-5">
                     <h3 className="footer__widget-title">Talk To Us</h3>
 
                     <div className="footer__widget-content">
-                      <p className="footer__text">
-                        Find a location nearest you. See{" "}
-                        <a href="#">Our Stores</a>
-                      </p>
+                    
                       <div className="footer__contact">
                         <div className="footer__contact-call">
                           <span>
