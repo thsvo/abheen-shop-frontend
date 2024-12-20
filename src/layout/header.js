@@ -10,7 +10,7 @@ import CartSidebar from "@components/common/sidebar/cart-sidebar";
 import OffCanvas from "@components/common/off-canvas";
 import useCartInfo from "@hooks/use-cart-info";
 import SearchForm from "@components/forms/search-form";
-import banner from "@assets/homebanner.png";
+import banner from "@assets/homebanner.jpeg";
 import logo from "@assets/ABHEEN.svg";
 
 import NavigationMenu from "./NavMenu";
