@@ -53,12 +53,12 @@ const Header = ({ style_2 = true }) => {
                   <div className="col-xxl-1 col-xl-2 col-lg-4 col-md-4 col-sm-5 col-8">
                     <div className="logo ">
                       <Link href="/">
-                        <Image
+                        {/* <Image
                           src={logo}
                           alt="Image 1"                      
                           width={150}
                           style={{ height: '100%' }}
-                        />
+                        /> */}
                       </Link>
                     </div>
                   </div>

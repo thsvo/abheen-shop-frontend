@@ -33,8 +33,8 @@ const OffCanvas = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
               <div className="offcanvas__logo logo">
                 <Link href="/">
                   <Image src={logo} alt="logo"
-                  width={150}
-                  height={150}
+                  width={50}
+                  height={50}
                    />
                 </Link>
               </div>
