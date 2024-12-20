@@ -24,6 +24,7 @@ const Header = ({ style_2 = true }) => {
   return (
     <>
       <header>
+      {/* <link rel="icon" href="/../public/favicon.ico" /> */}
         <div class="banner1">
           <div class="container1">
             <p>
