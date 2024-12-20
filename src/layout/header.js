@@ -10,7 +10,9 @@ import CartSidebar from "@components/common/sidebar/cart-sidebar";
 import OffCanvas from "@components/common/off-canvas";
 import useCartInfo from "@hooks/use-cart-info";
 import SearchForm from "@components/forms/search-form";
-import logo from "@assets/abheen.png";
+import banner from "@assets/homebanner.png";
+import logo from "@assets/abheens.png";
+
 import NavigationMenu from "./NavMenu";
 
 const Header = ({ style_2 = true }) => {
@@ -24,7 +26,7 @@ const Header = ({ style_2 = true }) => {
   return (
     <>
       <header>
-      {/* <link rel="icon" href="/../public/favicon.ico" /> */}
+        {/* <link rel="icon" href="/../public/favicon.ico" /> */}
         <div class="banner1">
           <div class="container1">
             <p>
@@ -46,7 +48,6 @@ const Header = ({ style_2 = true }) => {
             className={`header__bottom-2 header__padding-7 header__black-3 header__bottom-border-4 ${
               style_2 ? "header__bottom-13-white" : "grey-bg-17"
             } header__sticky }`}
-           
           >
             <div className="container-fluid">
               <div className="mega-menu-wrapper p-relative">
@@ -54,12 +55,12 @@ const Header = ({ style_2 = true }) => {
                   <div className="col-xxl-1 col-xl-2 col-lg-4 col-md-4 col-sm-5 col-8">
                     <div className="logo ">
                       <Link href="/">
-                        {/* <Image
+                        <Image
                           src={logo}
-                          alt="Image 1"                      
-                          width={150}
-                          style={{ height: '100%' }}
-                        /> */}
+                          width={120}
+                          height={53}
+                          alt="Image 1"
+                        />
                       </Link>
                     </div>
                   </div>
@@ -158,7 +159,16 @@ const Header = ({ style_2 = true }) => {
           </div>
         </div>
       </header>
-<NavigationMenu></NavigationMenu>
+      <NavigationMenu></NavigationMenu>
+      <div className="image-container">
+        <Image
+          src={banner}
+          alt="Monthly Family Pack Banner"
+          layout="fill" // Use this for full width and height
+          objectFit="cover" // Ensures the image covers the container
+        />
+      </div>
+
       {/* cart mini area start */}
       <CartSidebar isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen} />
       {/* cart mini area end */}

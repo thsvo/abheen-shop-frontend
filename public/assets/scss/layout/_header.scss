@@ -2869,4 +2869,10 @@
     }
   }
   
+  .image-container {
+    position: relative; // Required for the Image component to fill the container
+    width: 100%; // Full width of the parent
+    height: 100vh; // Full height of the viewport
+    overflow: hidden; // Ensures no overflow outside the container
+  }
   

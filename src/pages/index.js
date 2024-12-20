@@ -20,7 +20,7 @@ const HomeShop = () => {
     <Wrapper>
       <SEO pageTitle={"Home Shop"} />
       <Header />
-      <HeroBanner />
+      {/* <HeroBanner /> */}
       <ShopCategoryArea />
       <ShopProducts />
       <OfferPopularProduct />
