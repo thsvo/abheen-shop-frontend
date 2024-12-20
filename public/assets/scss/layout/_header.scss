@@ -2803,7 +2803,7 @@
       list-style: none;
       margin: 0;
       padding: 0;
-      gap: 1.5rem;
+      gap: 3rem;
       white-space: nowrap;
       justify-content: center; // Center the items horizontally
     }
@@ -2813,8 +2813,8 @@
       
       &--active {
         .navigation__button {
-          color: #000;
-          font-weight: 500;
+          color: #ff7f27;
+          font-weight: 900;
           
           &::after {
             transform: scaleX(1);
@@ -2828,7 +2828,7 @@
       border: none;
       padding: 0.5rem 0;
       color: #666;
-      font-size: 0.9rem;
+      font-size: 1.2rem;
       cursor: pointer;
       transition: color 0.3s ease;
       position: relative;
