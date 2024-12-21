@@ -2876,5 +2876,14 @@
     width: 100%; // Full width of the parent
     height: 100vh; // Full height of the viewport
     overflow: hidden; // Ensures no overflow outside the container
+  
+    // Responsive styles
+    @media (max-width: 768px) {
+      height: 50vh; // Adjust the height for smaller screens
+    }
+  
+    @media (max-width: 480px) {
+      height: 30vh; // Further adjust the height for very small screens
+    }
   }
   
