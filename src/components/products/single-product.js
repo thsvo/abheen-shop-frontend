@@ -126,7 +126,7 @@ const SingleProduct = ({ product, discountPrd = false }) => {
           {discount <= 0 && (
             <div className="product__price">
               <span className="product__ammount">
-                ${originalPrice.toFixed(2)}
+              ৳{originalPrice.toFixed(2)}
               </span>
             </div>
           )}
