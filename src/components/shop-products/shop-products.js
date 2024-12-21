@@ -41,7 +41,7 @@ const ShopProducts = ({ element_style = false }) => {
             <div className="row align-items-end">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <div className="section__title-wrapper-13 mb-35">
-                  <h3 className="section__title-13">Popular Products</h3>
+                  <h3 className="section__title-13">Latest Products</h3>
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">

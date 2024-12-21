@@ -21,7 +21,8 @@ const HomeShop = () => {
       <SEO pageTitle={"Home Shop"} />
       <Header />
       {/* <HeroBanner /> */}
-      <ShopCategoryArea />
+      {/* <ShopCategoryArea /> */}
+      <br /> <br/>
       <ShopProducts />
       <OfferPopularProduct />
       <Store />
