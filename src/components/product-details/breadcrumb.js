@@ -20,19 +20,19 @@ const ProductDetailsBreadcrumb = ({title}) => {
                 <span className="dvdr">
                   <i className="fa-regular fa-angle-right"></i>
                 </span>
-                <span>
+                 <span>
                   <a href="#">Products</a>
                 </span>
-                <span className="dvdr">
+               {/* <span className="dvdr">
                   <i className="fa-regular fa-angle-right"></i>
                 </span>
                 <span>
-                  <a href="#">Apple Watch</a>
+                  <a href="#">{title}</a>
                 </span>
                 <span className="dvdr">
                   <i className="fa-regular fa-angle-right"></i>
                 </span>
-                <span>Apple Watch Series 7</span>
+                <span>Apple Watch Series 7</span> */}
               </div>
             </div>
           </div>
