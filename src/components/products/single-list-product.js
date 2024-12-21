@@ -7,6 +7,7 @@ import ProductModal from "@components/common/modals/product-modal";
 import { RatingFull, RatingHalf } from "./rating";
 import { useDispatch } from "react-redux";
 import { initialOrderQuantity } from "src/redux/features/cartSlice";
+import SocialButtonss from "@layout/SocialButton";
 
 const SingleListProduct = ({ product }) => {
   const { _id, image, title, price, discount } = product || {};
@@ -55,6 +56,7 @@ const SingleListProduct = ({ product }) => {
               <div className="product__list-price">
                 <span className="product__list-ammount">৳{price}</span>
               </div>
+              <SocialButtonss></SocialButtonss>
               <p>
               আমাদের যে কোন পণ্য অর্ডার করতে কল বা WhatsApp করুন: +8801911941234
 

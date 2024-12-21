@@ -19,7 +19,7 @@ const OrderDetails = ({
       <tr className="cart-subtotal">
         <th>Cart Subtotal</th>
         <td className="text-end">
-          <span className="amount text-end">${total}</span>
+          <span className="amount text-end">৳{total}</span>
         </td>
       </tr>
       <tr className="shipping">
@@ -39,7 +39,7 @@ const OrderDetails = ({
                 onClick={() => handleShippingCost(60)}
                 htmlFor="flat_shipping"
               >
-                <span className="amount">Delivery: Today Cost : $60.00</span>
+                <span className="amount">Inside Dhaka: Today Cost : ৳ 60.00</span>
               </label>
               <ErrorMessage message={errors?.shippingOption?.message} />
             </li>
@@ -54,10 +54,10 @@ const OrderDetails = ({
                 name="shippingOption"
               />
               <label
-                onClick={() => handleShippingCost(20)}
+                onClick={() => handleShippingCost(120)}
                 htmlFor="free_shipping"
               >
-                Delivery: 7 Days Cost : $20.00
+                Outside Dhaka: 7 Days Cost : ৳ 120.00
               </label>
               <ErrorMessage message={errors?.shippingOption?.message} />
             </li>
