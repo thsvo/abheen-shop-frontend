@@ -56,7 +56,7 @@ const SingleListProduct = ({ product }) => {
               <div className="product__list-price">
                 <span className="product__list-ammount">৳{price}</span>
               </div>
-              <SocialButtonss></SocialButtonss>
+             
               <p>
               আমাদের যে কোন পণ্য অর্ডার করতে কল বা WhatsApp করুন: +8801911941234
 
