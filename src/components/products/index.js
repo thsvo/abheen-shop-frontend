@@ -59,22 +59,7 @@ const ShopProducts = () => {
                   className="nav nav-tabs justify-content-md-end"
                   id="productTab"
                 >
-                  {tabs.map((tab, i) => (
-                    <li
-                      key={i}
-                      className="nav-item"
-                      onClick={() => handleTabProduct(tab)}
-                    >
-                      <button
-                        className={`nav-link text-capitalize ${activeTab === tab ? "active" : ""
-                          }`}
-                        id="top-tab"
-                        type="button"
-                      >
-                        {tab.split("-").join(" ")}
-                      </button>
-                    </li>
-                  ))}
+               
                 </ul>
               </div>
             </div>
