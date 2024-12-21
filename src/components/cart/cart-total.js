@@ -10,10 +10,10 @@ const CartTotal = () => {
       <h2>Cart totals</h2>
       <ul className="mb-20">
         <li>
-          Subtotal <span>${total.toFixed(2)}</span>
+          Subtotal <span>৳{total.toFixed(2)}</span>
         </li>
         <li>
-          Total <span>${total.toFixed(2)}</span>
+          Total <span>৳{total.toFixed(2)}</span>
         </li>
       </ul>
       <Link href="/checkout" className="tp-btn cursor-pointer">

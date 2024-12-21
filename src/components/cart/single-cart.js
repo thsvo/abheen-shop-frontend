@@ -52,7 +52,7 @@ const SingleCartItem = ({item}) => {
         </div>
       </td>
       <td className="product-subtotal">
-        <span className="amount">${(originalPrice * orderQuantity).toFixed(2)}</span>
+        <span className="amount">৳{(originalPrice * orderQuantity).toFixed(2)}</span>
       </td>
       <td className="product-remove">
         <button type="submit" onClick={()=> handleRemovePrd(item)}>
