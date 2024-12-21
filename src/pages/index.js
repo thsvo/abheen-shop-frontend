@@ -24,8 +24,8 @@ const HomeShop = () => {
       {/* <ShopCategoryArea /> */}
       <br /> <br/>
       <ShopProducts />
-      <OfferPopularProduct />
-      <Store />
+      {/* <OfferPopularProduct />
+      <Store /> */}
       <ShopBrand />
       <ShopBanner />
       <ShopFeature />
