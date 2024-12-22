@@ -69,7 +69,7 @@ const OrderDetails = ({
         <th>Sub Total</th>
         <td className="text-end">
           <strong>
-            <span className="amount">${total}</span>
+            <span className="amount">৳{total}</span>
           </strong>
         </td>
       </tr>

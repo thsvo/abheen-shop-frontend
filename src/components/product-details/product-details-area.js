@@ -126,8 +126,9 @@ const ProductDetailsArea = ({ product }) => {
                 <p>SKU:</p>
                 <span>{sku}</span>
               </div>
+              <br/>
               {/* ProductDetailsCategories */}
-              <ProductDetailsCategories />
+              {/* <ProductDetailsCategories /> */}
               {/* ProductDetailsCategories */}
 
               {/* Tags */}
