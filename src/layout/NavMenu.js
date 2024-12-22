@@ -10,7 +10,7 @@ export default function NavigationMenu() {
     { label: 'OFFER', link: '/shop' },
     { label: 'Organic Foods', link: '/shop' },
     { label: 'খেজুর গুড়', link: '/shop?category=%E0%A6%96%E0%A7%87%E0%A6%9C%E0%A7%81%E0%A6%B0-%E0%A6%97%E0%A7%81%E0%A6%A1%E0%A6%BC' },
-    { label: 'সরিষার তেল', link: '/shop?category=sarisha-oil-(সরিষার-তেল)-' },
+    { label: 'সরিষার তেল', link: '/shop?category=sarisha-oil-(সরিষার-তেল)' },
     { label: 'Ghee (ঘি)', link: '/shop?category=ghee-(%E0%A6%98%E0%A6%BF)' },
     { label: 'Honey', link: '/shop?category=honey' },
     { label: 'কুমড়ো বড়ি', link: '/shop?category=%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%A1%E0%A6%BC%E0%A7%8B-%E0%A6%AC%E0%A6%A1%E0%A6%BC%E0%A6%BF-' },
