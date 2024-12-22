@@ -94,7 +94,6 @@ const ProductDetailsArea = ({ product }) => {
               </p> */}
 <br/>
 <ProductDetailsPrice price={originalPrice} discount={discount} />
-<br/>
 
  {/* quantity */}
  <ProductQuantity />
