@@ -15,6 +15,7 @@ import logo from "@assets/ABHEEN.svg";
 
 import NavigationMenu from "./NavMenu";
 
+
 const Header = ({ style_2 = true }) => {
   const { sticky } = useSticky();
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -159,14 +160,7 @@ const Header = ({ style_2 = true }) => {
         </div>
       </header>
       <NavigationMenu></NavigationMenu>
-      <div className="image-container">
-        <Image
-          src={banner}
-          alt="Monthly Family Pack Banner"
-          layout="fill" // Use this for full width and height
-          objectFit="cover" // Ensures the image covers the container
-        />
-      </div>
+     
 
       {/* cart mini area start */}
       <CartSidebar isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen} />
@@ -178,6 +172,7 @@ const Header = ({ style_2 = true }) => {
         setIsOffCanvasOpen={setIsOffCanvasOpen}
       />
       {/* off canvas end */}
+     
     </>
   );
 };

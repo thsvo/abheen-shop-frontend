@@ -13,6 +13,7 @@ import ShopBrand from "@components/brands";
 import ShopFeature from "@components/shop-feature";
 import ShopCta from "@components/cta";
 import Footer from "@layout/footer";
+import BannerHome from "@layout/banner-home";
 
 
 const HomeShop = () => {
@@ -20,6 +21,7 @@ const HomeShop = () => {
     <Wrapper>
       <SEO pageTitle={"Home Shop"} />
       <Header />
+      <BannerHome></BannerHome>
       {/* <HeroBanner /> */}
       {/* <ShopCategoryArea /> */}
       <br /> <br/>
