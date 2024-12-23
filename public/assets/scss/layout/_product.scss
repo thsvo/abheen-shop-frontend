@@ -762,8 +762,8 @@
                 font-weight: 500;
                 font-size: 14px;
                 line-height: 1;
-                color: var(--tp-theme-1);
-                border: 1px solid rgba($color: #F50963, $alpha: .1);
+                color: #ff7f27;
+                border: 1px solid rgba($color: #ff7f27, $alpha: .1);
                 padding: 5px 18px;
             }
         }
@@ -801,7 +801,7 @@
                     left: 0;
                     top: 3px;
                     width: 1px;
-                    height: 20px;
+                    height: 30px;
                     background-color: #DADCE0;
 
                     @include rtl{
@@ -827,7 +827,7 @@
             }
         }
         &-price{
-            margin-bottom: 35px;
+            // margin-bottom: 35px;
             & span{
                 font-family: var(--tp-ff-roboto);
                 line-height: 1;
@@ -845,8 +845,8 @@
                 color: var(--tp-text-1);
             }
             &.new-ammount{
-                font-weight: 600;
-                font-size: 24px;
+                font-weight: 400;
+                font-size: 20px;
                 color: var(--tp-common-black);
                 margin-left: 1px;
 
@@ -872,14 +872,14 @@
             }
         }
         &-quantity{
-            margin-bottom: 40px;
+            // margin-bottom: 40px;
         }
         &-action{
-            padding-bottom: 34px;
+            padding-bottom: 20px;
             border-bottom: 1px solid #DADCE0;
-            margin-bottom: 32px;
+            margin-bottom: 35x;
             & button{
-                margin-bottom: 6px;
+                // margin-bottom: 6px;
                 &:not(:last-child){
                     margin-right: 6px;
 
@@ -1696,13 +1696,13 @@
     }
 
     &-3{
-        background-color: var(--tp-common-black);
+        background-color: #ff7f27;
         color: var(--tp-common-white);
-        padding: 12px 45px;
+        // padding: 12px 45px;
 
         &:hover{
             color: var(--tp-common-white);
-            background-color: var(--tp-theme-1);
+            background-color: #ff7f27;
         }
 
         @media #{$xs}{
@@ -3051,7 +3051,7 @@ p.checkout-coupon button {
                 text-align: left;
                 background: #FFFFFF;
                 position: relative;
-                color: #F50963;
+                color: #ff7f27;
                 font-weight: 400;
                 font-size: 16px;
                 &::after{
@@ -3066,7 +3066,7 @@ p.checkout-coupon button {
                 &.collapsed{
                     color: #232323;
                     &:hover{
-                        color: #F50963;
+                        color: #ff7f27;
                     }
                     &::after{
                         @include transform(translateY(-50%) rotate(0));
@@ -3080,7 +3080,7 @@ p.checkout-coupon button {
                         & a{
                             color: #232323;
                             &:hover{
-                                color: #F50963;
+                                color: #ff7f27;
                             }
                         }
                     }

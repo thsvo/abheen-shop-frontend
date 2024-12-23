@@ -2881,11 +2881,13 @@
   
     // Responsive styles
     @media (max-width: 768px) {
-      height: 30vh; // Adjust the height for smaller screens
+      height: 20vh; // Adjust the height for smaller screens
+      weight: 20vh;
     }
   
     @media (max-width: 480px) {
-      height: 40vh; // Further adjust the height for very small screens
+      height: 20vh; // Further adjust the height for very small screens
+      weight: 20vh;
     }
   }
   
@@ -2894,7 +2896,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding: 1rem;
+    // padding: 1rem;
   
     .social-button {
       display: flex;
@@ -2921,6 +2923,49 @@
   
       &__text {
         font-weight: 500;
+      }
+    }
+  }
+  
+  .description {
+    padding: 1rem 0;
+  
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #ff6b00;
+      display: inline-block;
+    }
+  
+    .content {
+      font-size: 1rem;
+      line-height: 1.5;
+  
+      p {
+        margin-bottom: 0.5rem;
+      }
+  
+      a {
+        color: #000;
+        text-decoration: underline;
+        display: block;
+        margin-bottom: 0.25rem;
+        
+        &:hover {
+          color: #ff6b00;
+        }
+      }
+  
+      .hotline {
+        display: flex;
+        gap: 0.25rem;
+        align-items: center;
+  
+        span {
+          font-weight: 500;
+        }
       }
     }
   }

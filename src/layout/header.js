@@ -66,7 +66,7 @@ const Header = ({ style_2 = true }) => {
                   </div>
                   <div className="col-xxl-6 col-xl-7 d-none d-xl-block">
                     <div className="main-menu main-menu-13 pl-45 main-menu-ff-space ml-50">
-                      <nav id="mobile-menu-3">
+                      <nav id="mobile-menu-3 ml-5">
                         <Menus />
                       </nav>
                     </div>
