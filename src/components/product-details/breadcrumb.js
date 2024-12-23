@@ -5,7 +5,7 @@ import Home from "@svg/home";
 
 const ProductDetailsBreadcrumb = ({title}) => {
   return (
-    <section className="breadcrumb__area breadcrumb__style-9 pt-75 include-bg">
+    <section className="breadcrumb__area breadcrumb__style-9 pt-20 include-bg">
       <div className="container">
         <div className="row">
           <div className="col-xxl-7">
