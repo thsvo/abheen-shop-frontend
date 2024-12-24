@@ -44,7 +44,7 @@ const ProductDetailsArea = ({ product }) => {
   };
 
   return (
-    <section className="product__details-area pb-115">
+    <section className="product__details-area ">
       <div className="container">
         <div className="row">
           <div className="col-xl-7 col-lg-6">
@@ -58,7 +58,7 @@ const ProductDetailsArea = ({ product }) => {
                     height={1125}
                     style={{
                       width: "100%",
-                      maxHeight: "575px",
+                      maxHeight: "475px",
                       objectFit: "cover",
                     }}
                   />
