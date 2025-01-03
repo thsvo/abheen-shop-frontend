@@ -1,0 +1,76 @@
+.footer {
+    background-color: #fff;
+    padding: 3rem 0;
+    font-family: system-ui, -apple-system, sans-serif;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 2rem;
+  
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+    }
+  
+    .brand {
+      .logo {
+        margin-bottom: 1.5rem;
+      }
+  
+      .description {
+        color: #4a5568;
+        line-height: 1.6;
+        font-size: 0.95rem;
+      }
+    }
+  
+    .links {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      position: relative;
+  
+      .column {
+        .title {
+          color: #ff6b00;
+          font-size: 1.125rem;
+          font-weight: 600;
+          margin-bottom: 1.25rem;
+        }
+  
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+  
+          li {
+            margin-bottom: 0.75rem;
+  
+            a {
+              color: #4a5568;
+              text-decoration: none;
+              transition: color 0.2s ease;
+  
+              &:hover {
+                color: #ff6b00;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .dbid {
+      position: absolute;
+      top: -2rem;
+      right: 0;
+      color: #4a5568;
+      font-size: 0.875rem;
+    }
+  }
+  
+  
